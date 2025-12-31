@@ -90,7 +90,7 @@ const Portfolio = () => {
           </div>
 
           {/* Filter Buttons */}
-          <div className="flex flex-wrap gap-2 p-1 bg-slate-100 dark:bg-slate-900 rounded-2xl w-fit">
+          <div className="flex flex-wrap gap-2 py-2 px-4 bg-slate-100 dark:bg-slate-900 rounded-2xl w-fit">
             {['all', 'web', 'app', 'design'].map((cat) => (
               <button
                 key={cat}

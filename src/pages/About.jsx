@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBriefcase, FaCode, FaMobileAlt, FaPaintBrush, FaServer, FaGraduationCap } from 'react-icons/fa';
+import { FaCode, FaMobileAlt, FaPaintBrush, FaServer, FaGraduationCap } from 'react-icons/fa';
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
@@ -123,7 +123,7 @@ const About = () => {
               <img
                 src="images/me.png"
                 alt="Pradeep Debnath"
-                className="w-full grayscale hover:grayscale-0 transition-all duration-700 object-cover"
+                className="w-full lg:grayscale lg:hover:grayscale-0 transition-all duration-700 object-cover"
               />
             </div>
             {/* Decorative element */}
